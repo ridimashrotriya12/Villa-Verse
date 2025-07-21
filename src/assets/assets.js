@@ -16,9 +16,9 @@ import project_img_6 from './project_img_6.jpg'
 import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
-import logo1 from './logo1.png'
+import Logo1 from './Logo1.png'
 import logo2 from './logo2.png'
-import Home4 from './Home4.jpg'
+import home1 from './home1.png'
 
 export const assets = {
     logo,
@@ -34,9 +34,9 @@ export const assets = {
     project_img_4,
     left_arrow,
     right_arrow,
-    logo1,
+    Logo1,
     logo2,
-    Home4
+    home1
 }
 
 export const projectsData = [
@@ -86,7 +86,7 @@ export const projectsData = [
         image: profile_img_1,
         alt: "Portrait of Donald Jackman",
         rating: 5,
-        text: "We had a wonderful experience with HomeVista. The entire team was helpful and professional, making the home buying process easy and stress-free. The quality of construction and design is excellent. We are very happy with our new home and would definitely recommend them to family and friends"
+        text: "We had a wonderful experience with VillaVerse. The entire team was helpful and professional, making the home buying process easy and stress-free. The quality of construction and design is excellent. We are very happy with our new home and would definitely recommend them to family and friends"
     },
     {
         name: "Richard Nelson",

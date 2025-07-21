@@ -18,13 +18,13 @@ const Navbar = () => {
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
             <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
-                <img src={assets.logo1} alt="HomeVista Logo" className="w-28 h-auto object-contain" />
+                <img src={assets.Logo1} alt="HomeVista Logo" className="w-28 h-auto object-contain" />
 
-                <ul className='hidden md:flex gap-7 text-black'>
-                    <a href="#Header" className='cursor-pointer hover:text-gray-600'>Home</a>
-                    <a href="#About" className='cursor-pointer hover:text-gray-600'>About</a>
-                    <a href="#Projects" className='cursor-pointer hover:text-gray-600'>Projects</a>
-                    <a href="#Testimonials" className='cursor-pointer hover:text-gray-600'>Testimonials</a>
+                <ul className='hidden md:flex gap-7'>
+                    <a href="#Header" className='cursor-pointer bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200 transition border border-black'>Home</a>
+                    <a href="#About" className='cursor-pointer bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200 transition border border-black'>About</a>
+                    <a href="#Projects" className='cursor-pointer bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200 transition border border-black'>Projects</a>
+                    <a href="#Testimonials" className='cursor-pointer bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200 transition border border-black'>Testimonials</a>
                 </ul>
 
                 <button className='hidden md:block bg-black text-white px-8 py-2 rounded-full'>Sign up</button>
